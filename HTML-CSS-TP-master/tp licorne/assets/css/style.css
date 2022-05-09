@@ -1,0 +1,159 @@
+body{
+    background: url(../img/background.png);
+}
+#tead{
+    background-color: rgb(101, 193, 190);
+    height: 98px;
+    color: white;
+
+}
+#myunicorn{
+    font-family: 'Yellowtail', cursive;
+    font-size: 40px;
+    float: left;
+    margin: 15px 20px;
+}
+h3{
+    text-transform: uppercase;
+    float: left;
+    margin: 34px 20px;
+}
+#f-d{
+    float: right;
+}
+#alex{
+    background-color: black;
+    padding: 34px 20px;
+    margin: 0px;
+}
+h3:hover {
+    background-color: black;
+    padding: 34px 20px;
+    margin: 0px;
+  }
+
+  h1{
+    font-family: 'Dancing Script', cursive;
+    color: rgb(101, 193, 190);
+    text-align: center;
+    padding-top: 120px;
+    font-size: 53px;
+    background: url(../img/rainbow.png);
+        background-position-x: 0%;
+        background-position-y: 0%;
+        background-repeat: repeat;
+    background-position-x: 0%;
+    background-position-y: 0%;
+    background-repeat: repeat;
+    background-repeat: no-repeat;
+    background-position-x: 52%;
+    background-position-y: 63px;
+    padding-bottom: 47px;
+    margin: 0px;
+}
+#JeSuisDansLeBlocBloc{
+    background-color: white;
+    box-shadow: rgba(50, 50, 105, 0.15) 0px 2px 5px 0px, rgba(0, 0, 0, 0.05) 0px 1px 1px 0px;
+    border-radius: 10px;
+    width: 50%;
+    margin: auto;
+    margin-top: -50px;
+
+}
+i{
+    float: left;
+    font-size: 26px;
+    margin-top: 5px;
+    margin-right: 10px;
+    color: rgb(101, 193, 190);
+}
+h2{
+    color: rgb(101, 193, 190);
+    margin-top: 40px;
+}
+#marge-sec{
+    margin: 50px;
+}
+iframe{
+    float: left;
+    margin-bottom: 80px;
+}
+#clear{
+    clear: both;
+}
+.leak{
+    width: 20%;
+    float: left;
+    margin-left: 35px;
+}
+
+h6{
+    background-color: rgba(0, 0, 0, 0.712) ;
+    color: white;
+    font-size: 20px;
+    margin-bottom: 0px;
+    text-align: center;
+}
+#sandbox-un, #sandbox-deux, #sandbox-trois, #sandbox-quatre{
+    float: left;
+    margin-left: 20px;
+    padding-top: 225px;
+    width: 22%;
+}
+
+#sandbox-un{
+    background: url(../img/unicorns/photo1.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+
+#sandbox-deux{
+    background: url(../img/unicorns/photo2.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+
+
+}
+#sandbox-trois{
+    background: url(../img/unicorns/photo3.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+
+
+}
+#sandbox-quatre{
+    background: url(../img/unicorns/photo4.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+        
+}
+
+#emailAddress{
+    width: 175px;
+    height: 47px;
+}
+
+#sub{
+    padding: 10px 30px;
+    background-color: rgb(101, 193, 190);
+    border-radius: 7px;
+    margin-top: 10px;
+    border: 1px black solid;
+}
+
+#f-r{
+    float: right;
+    width: 38%;
+}
+
+#h7{
+    text-align: right;
+    background-color: rgb(101, 193, 190);
+    color: white;
+    height: 100px;
+    margin-bottom: 20px;
+    padding-top: 45px;
+    margin-left: 10px;
+    margin-right: 10px;
+}

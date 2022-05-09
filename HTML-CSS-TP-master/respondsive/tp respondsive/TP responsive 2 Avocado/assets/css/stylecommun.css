@@ -1,0 +1,64 @@
+body{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+  main{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+#backfirst{
+    background: url(../img/building2.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 494px;
+    margin: auto;
+    width: 98%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+} 
+
+.borderbox{
+    border: solid #F2EAE1;
+    height: 490px;
+    display: flex;
+    align-items: center;
+  }
+  cite{
+    margin-left: 3%;
+
+  }
+div{
+    margin: 1% 0px;
+}
+
+.imgburg{
+    width: 48%;
+  
+}
+#mak{
+    background-color: #5F9300;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-top: 0.2rem solid;
+}
+.back{
+    background-color:  #F2EAE1;
+    height: 490px;
+    display: flex;
+    align-items: center;
+  }

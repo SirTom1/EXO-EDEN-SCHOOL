@@ -1,0 +1,45 @@
+@media screen and (max-width: 1200) {
+    body{
+        background-color: #00abff;
+        width: 50%;
+        margin: auto;
+        margin-top: 20%;
+    
+    }
+    h1 {
+        background-color: gray;
+        font-size: 20px;
+        color: rgb(202, 202, 202);
+        padding: 17px;
+    }   
+    form{
+        background-color: white;
+    }
+    input{
+        border: solid white;
+        border-bottom:  1px solid gray;
+        width: 90%;
+        margin-top: 15px;
+    
+    }
+    #ecarter{
+        width: 85%;
+        margin: auto;
+    }
+    #login{
+        background-color: #00abff;
+        padding: 5px;
+        margin-bottom: 30px;
+    }
+    #rembember{
+        text-align: right;
+    
+    }
+    #bloc{
+        float: right;
+        width: 34%
+    }
+    #rememberMe{
+        width: 15px;    
+    }
+}

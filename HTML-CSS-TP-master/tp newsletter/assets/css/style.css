@@ -1,0 +1,36 @@
+body{
+    width: 50%;
+    margin: auto;
+    margin-top: 20px;
+    border: solid gray;
+}
+
+#head{
+    width: 99.5%;
+    margin: auto;
+    height: 412px;
+    margin-left: 2px;
+    margin-top: 10px;
+}
+
+h2{
+    color: gray;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.btn{
+    margin-left: 21px;
+    width: 900px;
+}
+.logo{
+    width: 250px;
+    margin: 30px 350px;
+    margin-bottom: 50px;
+}
+
+a{
+    margin: 11px 352px;
+    font-size: 18px;
+    text-decoration: underline;
+}

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulaire numero 2</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/style-min.css">
+    <link rel="stylesheet" href="assets/css/style-moyen.css">
+</head>
+<body>
+    <form method="post" action="" enctype="">
+        <h1>Login To Your account</h1>
+
+
+        <div id="ecarter">
+        <!--METHOD = comment circulent les données en PHP, ENCTYPE concerne la récupération des fichiers, ACTION est l'url de destination des données, le service demandé -->
+            <label for="nom"> </label>
+            <input type="text" id="nom" placeholder="First Name" name="nom" required>
+            <br>
+            <!--ID fait le lien avec le FOR du label en HTML le NAME est récupéré en PHP. Ce type d'ID étant dans un formulaire il n'y a pas le souci de limiter l'utilisation de l'attribut ID.-->
+
+            <label for="nom"></label>
+            <input type="text" id="nom" placeholder="Last Name" name="nom" required>
+            <br>
+
+
+            <label for="email"></label>
+            <!--* pour champs obligatoire REQUIRED dans l'input-->
+            <input type="email" id="email" name="email" placeholder="email" required>
+            <br>
+            <!--PLACEHOLDER est le texte explicatif en grisé dans le champs non encore rempli-->
+            <input id="monURL" name="monURL" type="url" placeholder="Website"
+            list="defaultURLs">
+     
+     <datalist id="defaultURLs">
+       <option value="http://www.example.com">
+       <option value="https://www.example.com">
+       <option value="http://www.example.org">
+       <option value="https://www.example.org">
+        <option value="http://www.example.fr">
+            <option value="https://www.example.fr">
+                <option value="http://www.example.pt">
+                    <option value="https://www.example.pt">
+             
+     
+     </datalist>
+        <div id="bloc">
+            <input type="checkbox" value="lsRememberMe" id="rememberMe"> <label for="rememberMe">Remember me</label>
+
+        </div>            
+            <input id="login" type="submit" name="inscription" value="S'inscrire">
+            <br>
+        </div>
+        </form>
+
+</body>
+</html>

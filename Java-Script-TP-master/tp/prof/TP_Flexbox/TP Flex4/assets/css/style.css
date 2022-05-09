@@ -1,0 +1,28 @@
+
+  
+      @media screen and (min-width: 810px){
+
+          
+        header{
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+          
+        }
+        main{
+            display: flex;
+            flex-wrap: wrap;
+          
+        }
+        img{
+            width: 100%;
+            margin: 1%;
+
+        }
+        section{
+            display: flex;
+            flex-wrap: wrap;
+            width: 25%;
+        }
+
+    }

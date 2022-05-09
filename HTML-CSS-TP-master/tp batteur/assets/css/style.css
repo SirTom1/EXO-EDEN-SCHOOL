@@ -1,0 +1,124 @@
+body{
+    width: 80%;
+    margin: auto;
+    background-color: rgb(26, 26, 26);
+    font-family: 'Arvo', serif;
+}
+.logo{
+    width: 150px;
+    display: block;
+    margin: auto;
+}
+
+header{
+    color: white;
+}
+.head1{
+    background-color: rgb(249, 160, 44);
+    text-align: center;
+    font-size: 30px;
+    height: 80px;
+    margin: 0 auto;
+    float: left;
+    width: 33.33%;
+    padding-top: 40px;
+
+}
+.head2{
+    background-color: rgb(249, 160, 44);
+    text-align: center;
+    font-size: 30px;
+    height: 80px;
+    margin: 0 auto;
+    float: left;
+    width: 33.33%;
+    padding-top: 40px;
+
+}
+.head3{
+    background-color: rgb(249, 160, 44);
+    text-align: center;
+    font-size: 30px;
+    height: 80px;
+    margin: 0 auto;
+    float: right;
+    width: 33.33%;
+    padding-top: 40px;
+
+}
+
+
+/* ------------------vous savez pourquoi l'iPhone 6 se plie ? 
+
+Parce que l'Apple Store.
+
+-------------------- */
+
+.coternoir{
+    color: rgb(249, 160, 44);
+    background-color: black;
+    float: left;
+    margin: auto;
+    width: 70%;
+}
+.border{
+    width: 90%;
+    margin: auto;
+}
+
+.first{
+    font-size: 60px;
+    margin-bottom: 20px;
+}
+hr{
+    text-align: center;
+    width: 96%;
+    border-top: 3px double rgb(249, 160, 44);
+    color: rgb(249, 160, 44);
+}
+hr {
+    border: none;
+    border-top: 1px double rgb(249, 160, 44);
+    color: rgb(249, 160, 44);
+    overflow: visible;
+    text-align: center;
+    width: 100%;
+}
+.para1{
+    color: white;
+    font-size: 22.5px;
+}
+
+.dum{
+    width: 100%;
+
+}
+.two{
+    font-size: 30px;
+}
+.para2{
+    color: white;
+    font-size: 20.5px;
+}
+.three{
+    margin: 50px 0;
+    font-size: 25px;
+}
+.para3{
+    font-size: 22.5px;
+    line-height: 35px;
+}
+.para4{
+    font-size: 22.5px;
+    line-height: 35px;
+    height: 1188px;
+}
+/* --------coter jaune */
+
+.coterjaune{
+    color: black;
+    background-color: rgb(255, 195, 104);
+    float: right;
+    margin: auto;
+    width: 30%;
+}

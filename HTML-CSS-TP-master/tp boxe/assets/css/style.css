@@ -1,0 +1,386 @@
+body{
+    background-color: white;
+}
+
+header{
+    margin-top: 50px;
+    background-color: rgb(248, 248, 248);
+    width: 100%;
+    height: 280px;
+}   
+
+.etwigo{
+    width: 75%;
+    margin: auto;
+}
+
+.casegauche{
+    width: 50%;
+    margin: 0;
+    float: left;
+}
+.casedroit{
+    width: 50%;
+    margin: 0;
+    float: right;
+    max-height: 300px;
+}
+.logo{
+    max-width: 400px;
+    padding: 1rem;
+    margin-top: 100px;
+    
+}
+
+    .border{
+        background: linear-gradient(rgba(0, 0, 0, 0), rgb(241, 193, 88));
+            height: 51px;
+            width: 7px;
+        float: left;
+        margin-right: 50px;
+        padding-top: 280px;
+
+    }
+.ameno{
+    color: rgb(218, 171, 72);
+}
+.case{
+    border: solid;
+    border-image: radial-gradient(white, black) 30;
+    margin-top: 50px;
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    
+}
+.account{
+    display: flex;
+    align-items: center;
+
+}
+.panier{
+    display: flex;
+    align-items: center;
+
+
+}
+.comptebtn{
+    color: black;
+}
+.hello{
+    text-align: right;
+    font-size: 30px;
+    font-weight: normal;
+    margin-right: 70px;
+    margin-top: 0px;
+}
+
+.blockbtn{
+    float: left;
+    border-style: solid;
+    border-image: 
+      linear-gradient(
+        to bottom, 
+        rgba(0, 0, 0, 0), 
+        rgb(146, 146, 146)
+      ) 1 100%;
+      border-left-width: 2px;
+      border-right-width: 2px;
+      border-top-width: 0px;
+      height: 60px;
+}
+.blockbtn{
+    margin-top: 0;
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    
+    
+}
+.parain{
+    display: flex;
+    align-items: center;
+    color: black;
+    font-size: 20px;
+}
+.deco{
+      display: flex;
+    align-items: center;
+    border-style: solid;
+    border-image: 
+      linear-gradient(
+        to bottom, 
+        rgba(0, 0, 0, 0), 
+        rgb(146, 146, 146)
+      ) 1 100%;
+      height: 60px;
+    padding: 0 50px;
+    color: black;
+    font-size: 20px;
+
+}
+
+
+/* main  */
+
+
+main{
+    background-color: rgb(28, 28, 28);
+    height: 1626px;
+    padding-top: 10px;
+}
+
+#background-boxe{
+    background: url(../img/header-page-catalogue.png);
+    background-repeat: no-repeat;
+    height: 335px;
+    width: 55%;
+    margin: auto;
+    margin-top: 20px;
+}
+#background-blanche{
+    background-color: white;
+    height:  1258px;
+    width: 55%;
+    margin: auto;
+}
+.block-gants1{
+    width: 75%;
+}
+
+.gantsnoire{
+    box-shadow: 1px 1px 19px 4px black;
+    margin: 10px;
+    float: left;
+    font-size: 10px;
+    color: black;
+    float: left;
+    text-align: center;
+    margin: auto;
+}
+
+.promo{
+    background-color: rgb(58, 58, 58);
+    color: goldenrod;
+    font-size: 40px;
+    border: solid black;
+    float: right;    
+    padding: 0px 10px;
+    position: absolute;
+    margin-left: 279px;
+    margin-top: 10px;
+}
+
+.img-gants-noire{
+    float: right;
+}
+
+.gantsrouge{
+    box-shadow: 1px 1px 19px 4px black;
+    margin: 10px;
+    float: left;
+    font-size: 10px;
+    color: black;
+    float: right;
+    text-align: center;
+    margin: auto;
+}
+
+.promo{
+    background-color: rgb(58, 58, 58);
+    color: goldenrod;
+    font-size: 40px;
+    border: solid black;
+    float: right;    
+    padding: 0px 10px;
+    position: absolute;
+    margin-left: 279px;
+    margin-top: 10px;
+}
+
+.img-gants-rouge{
+    float: right;
+}
+#rassemble-gants{
+    background-color: white;
+    height: 500px;
+    width: 83%;
+    margin: auto;
+    padding-top: 40px;
+}
+
+
+.vente{
+    float: left;
+    width: 50%;
+    text-align: center;
+
+}
+.show{
+    float: left;
+    width: 33%;
+    padding: 4px 10px;
+    background-color: black;
+    color: white;
+    margin-top: 21px;
+    margin-left: 10px;
+}
+
+p{
+    width: 25%;
+    float: left;
+}
+
+.rayer{
+    text-decoration: line-through;
+    margin-top: 9px;
+    font-size: 25px;
+    color: gray;
+}
+.prix {
+    margin-top: 5px;
+    font-size: 40px;
+    color: goldenrod;
+}
+
+.bordur{
+    background: linear-gradient(to right, white, black);
+    width: 198px;
+    height: 2px;
+    position: relative;
+    left: 166px;
+    bottom: -54px;
+}
+.vente2{
+    float: left;
+    width: 50%;
+    text-align: center;
+
+}
+.ecart{
+    margin-left: 73px;
+}
+.ecart2{
+    margin-left: 70px;
+}
+
+#rassemble-gants2{
+    background-color: white;
+    height: 500px;
+    width: 83%;
+    margin: 88px auto;
+    padding-top: 40px;
+}
+
+#ligne-gray{
+    background-color: rgb(55, 55, 55);
+    height: 25px;
+    margin-top: -73px;
+}
+
+#b-gray{
+    background-color: rgb(55, 55, 55);
+    height: 430px;
+    margin-top: 48px;
+}
+
+#b-white{
+    background-color: rgb(248, 248, 248);
+    height: 70px;
+    width: 29%;
+    position: relative;
+    top: -48px;
+    left: 625px;
+    border-radius: 0% 0% 10px 10px;
+}
+
+h4{
+    width: 25%;
+    float: left;
+    text-align: center;
+    margin: 20px 0px;
+}
+.qui{
+    margin: 20px 0px;
+}
+.contact{
+    margin: 12px 0px;
+}
+.asist{
+    margin: 3px 0px;
+
+}
+.cg{
+    margin: -4px 0px;
+
+}
+.bord-gris{
+    width: 10px;
+    border-radius: 50%;
+    background-color: gray;
+    height: 10px;
+}
+.bord1 {
+    position: relative;
+    left: 144px;
+    top: 30px;
+
+}
+.bord2{
+    position: relative;
+    left: 269px;
+    top: 22px;
+}
+.bord3{
+    position: relative;
+    left: 428px;
+    top: 12px;
+}
+.icon{
+    width: 45%;
+    margin: auto 495px;
+}
+
+.icone{
+    margin: 0px 72px;
+}
+.para{
+    width: 43%;
+    margin: auto;
+    font-size: 14px;
+    text-align: center;
+}
+
+p{
+    color: white;
+}
+
+
+.linear-gradient{
+    background: linear-gradient(white, black);
+    width: 600px;
+    height: 5px;
+    position: relative;
+    left: 640px;
+    top: 135px;
+}
+
+.social{
+    width: 20%;
+    margin: 40px auto;
+}
+.logosocial{
+    margin: auto 20px;
+}
+.tdr{
+    color: white;
+    width: 20%;
+    margin: auto;
+    margin-bottom: 100px;
+}
+.clear{
+    clear: both;
+}
+

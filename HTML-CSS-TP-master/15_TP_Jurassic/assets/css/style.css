@@ -1,0 +1,98 @@
+body{
+    margin: 0;
+}
+header{
+    background: url(../img/dinosaure.jpg);
+}
+
+.ro{
+    transform: rotate(150deg);
+}
+
+nav{
+    text-align: center;
+    background-color: rgba(0, 0, 0,0.5);
+    color: white;
+}
+
+li{
+    margin: 10px 20px;
+    display: ruby-base;
+
+    list-style: none;
+
+}
+
+ul{
+    margin: 0;
+}
+
+button{
+    background-color: blue;
+    color: white;
+    border: none;
+}
+#centrer-img{
+    text-align: center;
+}
+
+section{
+    width: 40%;
+    margin: auto;
+}
+
+#tac{
+    text-align: center;
+    font-size: 36px;
+}
+
+span{
+    font-weight: bold;
+}
+
+.tacdeux{
+    text-align: center;
+}
+#boutin{
+    display: flex;
+    justify-content: center;
+  
+}
+
+#sect2{
+    display: flex;
+}
+
+#sect2:nth-child(1){
+    width: 50%;
+}
+
+#hi{
+    width: 40%;
+}
+#daniel{
+width: 50%;
+margin-left: 10%;
+}
+#mdr{
+    display: flex;
+    justify-content: space-around;
+}
+
+#sect3{
+    margin-top: 5%;
+}
+
+
+footer{
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+}
+
+#listefoot{
+    display: flex;
+    flex-direction: column;
+  
+}

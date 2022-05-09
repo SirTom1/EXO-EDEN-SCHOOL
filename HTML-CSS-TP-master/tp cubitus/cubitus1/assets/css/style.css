@@ -1,0 +1,110 @@
+.z1{
+    background-color: rgb(122, 67, 224);
+    font-size: 30px;
+    float: left;
+    padding: 100px;
+    border: 0.2rem solid black;
+    margin-right: 10px;
+    border-radius: 40px;
+
+}
+.z2{
+    background-color: rgb(67, 224, 122);
+    font-size: 30px;
+    float: left;
+    padding: 100px;
+    border: 0.2rem solid black;
+    margin-right: 10px;
+    border-radius: 40px;
+
+}
+.z3{
+    background-color: rgb(122, 67, 224);
+    font-size: 30px;
+    float: left;
+    padding: 100px;
+    border: 0.2rem solid black;
+    margin-right: 10px;
+    border-radius: 40px;
+
+}
+.z4{
+    background-color: rgb(67, 224, 122);
+    font-size: 30px;
+    float: left;
+    padding: 100px;
+    border: 0.2rem solid black;
+    border-radius: 40px;
+}
+/* ------------------Bloc DEUX---------------------- */
+.z5{
+    background-color: rgb(67, 224, 122);
+    font-size: 30px;
+    float: left;
+    padding: 100px;
+    border: 0.2rem solid black;
+    margin-right: 10px;
+    border-radius: 40px;
+    margin-top: 10px;
+
+}
+.z6{
+    background-color: rgb(122, 67, 224);
+    font-size: 30px;
+    float: left;
+    padding: 100px;
+    border: 0.2rem solid black;
+    margin-right: 10px;
+    border-radius: 40px;
+    margin-top: 10px;
+
+}
+.z7{
+    background-color: rgb(67, 224, 122);
+    font-size: 30px;
+    float: left;
+    padding: 100px;
+    border: 0.2rem solid black;
+    border-radius: 40px;
+    margin-top: 10px;
+
+}
+/* ------------------Bloc trois---------------------- */
+.z8{
+    background-color: rgb(122, 67, 224);
+    font-size: 30px;
+    float: left;
+    padding: 100px;
+    border: 0.2rem solid black;
+    margin-right: 10px;
+    border-radius: 40px;
+
+    margin-top: 10px;
+
+}
+.z9{
+    background-color: rgb(67, 224, 122);
+    font-size: 30px;
+    float: left;
+    padding: 100px;
+    border: 0.2rem solid black;
+    margin-right: 40px;
+    border-radius: 40px;
+    margin-top: 10px;
+}
+/* ------------------Bloc quatre---------------------- */
+
+.z10{
+    background-color: rgb(67, 224, 122);
+    font-size: 30px;
+    float: left;
+    padding: 100px;
+    border: 0.2rem solid black;
+    margin-right: 10px;
+    border-radius: 40px;
+    margin-top: 10px;
+
+}
+.clear{
+    clear: both;
+}

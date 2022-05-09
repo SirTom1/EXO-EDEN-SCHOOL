@@ -1,0 +1,44 @@
+.h-bc-p{
+    
+    background: url(../img/istockphoto-1152039879-170667a.jpg);
+    background-size: 51vw;
+    opacity: 0.8;
+    background-position: center;
+}
+
+nav{    
+    background-color: black;
+  }
+
+  .block_case{
+      border-radius: 50%;
+      height: 250px;
+      
+    
+  }
+
+  .block_case:nth-last-of-type(4){
+      background: url(../img/c57.gif);
+            background-size: cover;
+          background-position: center;
+  }
+
+  .block_case:nth-last-of-type(3){
+    background: url(../img/images.jpg);
+          background-size: cover;
+        background-position: center;
+}
+
+.block_case:nth-last-of-type(2){
+    background: url(../img/chuck\ norris.jpg);
+          background-size: cover;
+        background-position: center;
+}
+.block_case:nth-last-of-type(1){
+    background: url(../img/perceval.jpg);
+          background-size: cover;
+        background-position: center;
+}
+cite:nth-of-type(2){
+    display: block;
+}

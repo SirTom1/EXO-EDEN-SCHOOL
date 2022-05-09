@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8">
+        <title>Base HTML-CSS</title>
+        <!-- CSS VENDOR / Librairie -->
+        <link rel="stylesheet" href="assets/css/normalize.css">
+        <!-- CSS perso -->
+        <link rel="stylesheet" href="assets/css/base.css">
+        <link rel="stylesheet" href="assets/css/style.css">
+    </head>
+    <body>
+        <h1>Tp tableau</h1>
+        <table>
+            <thead>
+                <tr>
+                    <th class="background-gray">Votre Travail</th>
+                    <th class="background-blue border-blue">Salaire</th>
+                    <th class="background-gray">Votre maison</th>
+                    <th class="background-blue border-blue">L'animal de compagnie</th>
+                    <th class="background-gray">Votre pays</th>
+
+                </tr>
+            </thead>
+
+            <tbody>
+                <tr>
+                    <td>Développeur</td>
+                    <td>2000£</td>
+                    <td>2 Chambres || 3 pièces</td>
+                    <td>Chat</td>
+                    <td>La france</td>
+                </tr>
+                <tr class="back-grey">
+                    <td>Maçon</td>
+                    <td>1200£</td>
+                    <td>5 Chambres || 10 pièces</td>
+                    <td>chien</td>
+                    <td>Portugal</td>
+                </tr>
+                <tr>
+                    <td>Développeur</td>
+                    <td rowspan="2">800£</td>
+                    <td>2 Chambres || 1 pièces</td>
+                    <td>Hamster</td>
+                    <td>Italie</td>
+                </tr>
+                <tr class="back-grey">
+                    <td>PAELLA PEPITO</td>
+                    <td>1 Chambres || 1 pièces</td>
+                    <td>souris</td>
+                    <td>Espagne</td>
+                </tr>
+                
+            </tbody>
+
+            <tfoot>
+                <tr>
+                    <th class="background-gray">Votre Travail</th>
+                    <th class="background-blue">Salaire</th>
+                    <th class="background-gray">Votre maison</th>
+                    <th class="background-blue">L'animal de compagnie</th>
+                    <th class="background-gray">Votre pays</th>
+
+                </tr>
+            </tfoot>
+        </table>
+    </body>
+</html>

@@ -1,0 +1,54 @@
+/* ====================================
+CSS setup ne rien modifier
+Travailler plus bas
+* ==================================== */
+
+body { margin: 0; padding: 0; border: 0; }
+ul { list-style: none; padding: 0; margin: 0; height: 100px; }
+li { background-color: lightgrey; text-align: center; }
+li:nth-of-type(5n+1) { background-color: #1abc9c; }
+li:nth-of-type(5n+2) { background-color: #3498db; }
+li:nth-of-type(5n+3) { background-color: #9b59b6; }
+li:nth-of-type(5n+4) { background-color: #e67e22; }
+li:nth-of-type(5n) { background-color: #e74c3c; }
+a { color: white; font-size: 16px; line-height: 50px; text-decoration: none; }
+
+/* ====================================
+Travailler à partir d'ici
+* ==================================== */
+
+/* Etape 1
+présenter le menu à l'horizontal
+
+Etendre la surface cliquable à chaque la surface colorée
+
+/* /!\ Il y a UNE SEULE instruction en CSS à surcharger pour répondre à l'instruction n°2 */
+
+
+/* Etape 2
+présenter le menu à la verticale avec un breakpoint à 600px */
+
+
+/* Etape 3
+au survol, étirer le <li> */
+
+ul{
+    display: flex;
+    flex-direction: row;
+
+}
+a{
+    display: inline-block;
+    width: 100%;
+    height: 100px;
+  }
+li{
+    width: 25%;
+
+}
+
+
+li:hover{
+    transform: scale(120%);
+
+}

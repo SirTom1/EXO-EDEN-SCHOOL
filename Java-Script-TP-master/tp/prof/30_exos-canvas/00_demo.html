@@ -1,0 +1,36 @@
+<!-- regarde et exécute le code, puis regarde dans la documentation MDN ce que tu trouves sur la balise CANVAS ainsi que sur les propriétés utilisées dans ce script : -->
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        #monCanvas{
+            border: 2px solid orange;
+            width: 400px;
+            height: 300px;
+            
+        }
+    </style>
+</head>
+<body>
+    <canvas id="monCanvas"></canvas>
+
+    <script>
+    var canvas = document.getElementById('monCanvas');
+    var feuille = canvas.getContext('2d');
+
+    feuille.fillStyle = 'tomato';
+    feuille.fillRect(20, 5, 100, 20);
+    /* position x | position y | largeur | hauteur */
+
+    feuille.fillStyle = 'green';
+    feuille.fillRect(60, 5, 20, 100);
+
+
+
+    </script>
+</body>
+</html>

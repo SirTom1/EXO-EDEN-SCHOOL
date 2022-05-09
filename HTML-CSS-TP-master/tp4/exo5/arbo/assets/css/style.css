@@ -1,0 +1,79 @@
+body{
+    width: 60%;
+    margin: 0 auto;
+    background-color: white;
+    text-align: center  ;
+}
+
+.blocdeux{
+    background-color: rgb(177, 177, 177);
+    font-size: 40px;
+    height: 952px;
+}
+
+/* --------- */
+.global{
+    margin: 0 auto;
+    width: 95%;
+    border: 0.2rem solid ;
+
+}
+.zoning{
+    padding-top: 100px;
+    margin: 0 auto;
+    text-align: left;
+}
+.head{
+    background-color: rgb(253, 215, 93);
+    text-align: center;
+    font-size: 30px;
+    height: 100px;
+    margin: 0 auto;
+
+}
+.nav{
+    background-color: rgb(218, 188, 93);
+    text-align: center;
+    font-size: 30px;
+    height: 50px;
+    margin: 0 auto;
+    border-bottom: 10px solid rgb(199, 150, 0);
+
+}
+
+section{
+    height: 400px;
+    border: 2rem solid white;
+    float: inline-end;
+}
+
+
+.case1{
+    background-color: rgb(218, 188, 93);
+    height: 50%;
+    width: 50%;
+    float: left;
+
+}
+.case2{
+    background-color: rgb(255, 227, 123);
+    height: 50%;
+    width: 50%;
+    float: right;
+
+}
+.case3{
+    background-color: rgb(255, 227, 123);
+    height: 50%;
+    width: 50%;
+    float: left;
+
+}
+
+.case4{
+    background-color: rgb(218, 188, 93);
+    height: 50%;
+    width: 50%;
+    float: right;
+
+}

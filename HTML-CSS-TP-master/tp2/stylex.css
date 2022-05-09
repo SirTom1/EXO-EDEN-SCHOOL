@@ -1,0 +1,38 @@
+body{
+    margin: 0px;
+}
+.bloc-prems {
+    background:url(header.jpg), no-repeat;
+    margin: 0;
+    background-size: cover;
+    padding: 0px;
+    background-attachment: fixed;
+    background-position: center;
+
+    }
+
+    h1{
+        color: black;
+        padding: 200px;
+        padding-bottom: 400px;
+        padding-left: 750px;
+        font-size: 70px;
+        margin: 0px;
+        
+    }
+    .bloc-two {
+        padding-top: 150px;
+
+    }
+    .rala {
+        font-size: 20px;
+    }
+
+    .titre{
+        text-align: center;
+    }
+
+    .surligner{
+        background-color: rgb(255, 187, 0);
+
+    }

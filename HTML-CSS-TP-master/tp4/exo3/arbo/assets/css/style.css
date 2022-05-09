@@ -1,0 +1,38 @@
+body{
+    width: 50%;
+    margin: 0 auto;
+}
+h1{
+    margin: 0;
+}
+.zh{
+    background-color: rgb(240, 225, 137);
+    display: block;
+    text-align: center;
+}
+
+
+.zg{
+    background-color: rgb(90, 184, 95);
+    float: left;
+    padding-top: 7px;
+    padding-right: 200px;
+    padding-left: 50px;
+    padding-bottom: 600px;
+}
+.czg{
+    float: left;
+}
+
+
+.czd{
+    display: inline;
+}
+.zd{
+    background-color: rgb(33, 88, 75);
+    float: left;   
+     padding-top: 7px;
+     padding-left: 100px;
+     padding-right: 201px;
+     padding-bottom: 600px;
+}

@@ -1,0 +1,96 @@
+body{
+    width: 100%;
+    margin: 0 auto;
+    background-color: rgb(86, 90, 93);
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-weight: normal;
+}
+
+.container{
+    width: 700px;
+    margin: auto;
+
+}
+header{
+    background: url(../img/cat-god.jpg);
+    height: 257px;
+    background-repeat: no-repeat;
+    background-position: right;
+    padding-top: 20px;
+    margin-right: 100px;
+}
+.titre{
+    font-size: 80px;
+    text-align: center;
+    margin-top: 100px;
+    font-family: 'Amatic SC', cursive;
+    font-weight: normal;
+}
+
+/* ---------main----------- */
+main{
+
+    width: 100%;
+    margin: 0 auto;
+}
+p{
+    margin: auto;
+    font-size: 17px;
+    line-height : 50px;
+    text-indent : 25px;
+}
+
+.titre2{
+    font-size: 45px;
+    text-align: left;
+    margin-top: 40px;
+    margin: auto;
+    font-family: 'Amatic SC', cursive;
+    font-weight: normal;
+}
+.image{
+    width: 400px;
+}
+
+
+.logoe{
+    margin: auto;
+    margin-top: 200px;
+    width: 200px;
+    display: block;
+}
+.copyright{
+    margin: auto 0;
+    text-align: center;
+
+}
+.source{
+    margin: auto;
+    text-align: center;
+}
+.source2{
+    text-align: center;
+}
+h3{
+    margin: auto;
+    margin-top: 5   0px;
+}
+.citations{
+    font-size: 30px;
+    text-align:     center;
+}
+
+h3:before {
+    content: open-quote ;
+}
+h3:after {
+    content: close-quote;
+}
+h5{
+    text-align: right;
+}
+a{
+    color: aqua;
+    text-align: center;
+}

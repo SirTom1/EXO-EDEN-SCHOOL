@@ -1,0 +1,53 @@
+header{
+    width: 30%; 
+    margin: auto;
+
+}
+
+#bloc_bleue{
+    background-color: blue;
+    width: 100%;
+    height: 100px;
+    margin-bottom: 10px;
+    text-align: center;
+
+}
+#bloc_vert{
+    background-color: green;
+    width: 50%;
+    float: left;
+    height: 100px;
+    text-align: center;
+
+}
+#bloc_red{
+    background-color: red;
+    width: 50%;
+    float: left;
+    height: 100px;
+    text-align: center;
+
+}
+#bloc_jaune{
+    background-color: yellow;
+    width: 100%;
+    height: 100px;
+    margin-top: 10px;
+    text-align: center;
+
+}
+
+#section{
+    width: 100%;
+}
+
+.bloc{
+    width: 100px;
+    height: 100px;
+    background-color: pink;
+    position: relative;
+}
+
+.clear{
+    clear: both;
+}

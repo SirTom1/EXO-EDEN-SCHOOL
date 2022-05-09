@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Valeurs finales</title>
+	<meta charset="UTF-8">
+	<style media="screen">
+          *{ font-size: x-large; }
+          th, td{ border: 1px solid; }
+          td{
+               text-align: center;
+          }
+	</style>
+
+</head>
+
+<body>
+	<h1>Valeurs finales</h1>
+	<h3>Examinez le programme valeurs.js ci-dessous :</h3>
+		<p>var nb1 = Number(prompt("Entrez nb1 :"));</p>
+		<p>var nb2 = Number(prompt("Entrez nb2 :"));</p>
+          <p>var nb3 = Number(prompt("Entrez nb3 :"));</p><br />
+          <br>
+		<p>if (nb1 > nb2) {</p>
+		     <p style="margin-left: 3rem;">nb1 = nb3 * 2;</p>
+		<p>} else {</p>
+               <p style="margin-left: 3rem;">nb1++;</p>
+               <p style="margin-left: 3rem;">if (nb2 > nb3) {</p>
+                    <p style="margin-left: 6rem;">nb1 = nb1 + nb3 * 3;</p>
+               <p style="margin-left: 3rem;">} else {</p>
+                    <p style="margin-left: 6rem;">nb1 = 0;</p>
+                    <p style="margin-left: 6rem;">nb3 = nb3 * 2 + nb2;</p>
+               <p style="margin-left: 3rem;">}</p>
+          <p>}</p>
+
+	<h3>Avant de l'exécuter, tentez de prévoir les valeurs finales des variables nb1, nb2 et nb3 en fonction de leurs valeurs initiales et complétez le tableau ci-dessous.</h3>
+		<table>
+			<tr>
+				<th>valeurs initiales</th>
+				<th>valeur finale nb1</th>
+				<th>valeur finale nb2</th>
+				<th>valeur finale nb3</th>
+			</tr>
+			<tr>
+				<td>Exemple nb1, nb2 & nb3 valent tous 7</td>
+				<td id="nb1">nb1 = 0</td>
+				<td id="nb2">nb2 = 4</td>
+				<td id="nb3">nb3 = 12</td>
+			</tr>
+			<tr>
+				<td>nb1, nb2 & nb3 valent tous 4</td>
+				<td>nb1 = 0</td>
+				<td>bn2 = 2</td>
+				<td>nb3 = 6</td>
+			</tr>
+			<tr>
+				<td>nb1 = 4, nb2 = 3, nb3 = 2</td>
+				<td>nb1 = 4</td>
+				<td>nb2 = 3</td>
+				<td>nb3 = 2</td>
+			</tr>
+			<tr>
+				<td>nb1 = 2, nb2 = 4, nb3 = 0</td>
+				<td>nb1 = 9</td>
+				<td>nb2 = 4</td>
+				<td>nb3 = 0</td>
+			</tr>
+		</table>
+
+	<h3>Résultat :</h3>
+<script type="text/javascript" src="09.js" ></script>
+</body>
+</html>

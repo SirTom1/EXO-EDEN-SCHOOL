@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Sirin+Stencil&display=swap');
+
+/*Ici, notre design principal correspond à la présentation qu'on souhaite avoir sur grand écran */
+/* @media (min-width:1200px) { */
+html {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-size: 20px;
+}
+body{
+  background-color: #c9ada7;
+  color: #000;
+  font-size: 1.5rem;
+  font-family: 'Poppins', sans-serif;
+}
+h1, h2{
+  font-family: 'Sirin Stencil', cursive;
+  text-align: center;
+}
+h1{
+  font-size: 4.5rem;
+}
+h2{
+  font-size: 5.5rem;
+  display: flex;
+  justify-content: space-between;
+}
+h3{
+  font-size: 1.8rem;
+  font-style: italic;
+  text-align: center;
+  color: darkslategray;
+}
+span{
+  color: #5a186a;
+}
+#mf, #tablet, #ordi, #mobile{
+  display: none;
+}
+
+/* Ecrans d'ordinateur */
+@media screen and (min-width: 992px) and (max-width: 1199px){
+  html{ font-size: 18px;}
+  body{ background-color: #9a8c98; color: #000;}
+  span{ color: #5a189a;}
+  #grand{ display: none;}
+  #ordi{ display: block;}
+}
+
+/* tablette */
+@media screen and (min-width: 776px) and (max-width: 991px){
+  html{ font-size: 14px;}
+  body{ background-color: #4a4e69;}
+  h3{ color: lightgray;}
+  span{ color: #bbd0ff;}
+  #tablet{ display: block;}
+  #ordi, #grand, #mobile{ display: none;}
+}
+
+/* mobile */
+
+@media screen and  (max-width: 775px) {
+    html{font-size: 12px;}
+    body{background-color: #22223b;}
+    h3{color: lightgray;}
+    span{color: #e0aaff;}
+    #grand,  #ordi, #tablet{display: none;}
+    #mobile {display: block;}
+}

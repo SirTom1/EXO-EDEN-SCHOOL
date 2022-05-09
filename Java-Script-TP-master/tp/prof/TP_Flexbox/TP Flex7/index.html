@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+	<meta charset="UTF-8">
+	<title>TP Flex7 - Formulaire Flexbox</title>
+	<link rel="stylesheet" href="./style.css">
+	
+</head>
+<body>
+	
+	<h1>Formulaire flex</h1>
+	<aside></aside>
+	<aside id="sc"></aside>
+	<form action="destination.php">
+		<div id="left">
+			<p class="tac">Informations passager Flex</p>
+			<span></span>
+			<p class="tac">
+				<label for="name">Nom : </label>
+				<input type="text" id="name" autofocus>
+			</p>
+			<p class="tac">
+				<label for="prenom">Prénom : </label>
+				<input type="prenom" id="prenom">
+			</p>
+			<p class="tac">
+				<label for="email">E-mail : </label>
+				<input type="email" id="email">
+			</p>
+			<p><small>(ceci est un texte bidon de remplissage, juste pour étirer la hauteur de ce bloc de contenu). On dira donc que l'utilisateur a lu toutes les conditions et les trucs écrits en tout petit dans les CGV et CGU et que cette magnifique ignorance l'empêche d'avoir peur de cliquer sur le bouton "envoyer"...</small></p>
+			<p>
+				<input id="sub" type="submit" value="Envoyer">
+			</p>
+		</div>
+		<div id="right">
+			<p class="tac">Un commentaire ?</p>
+			<span></span>
+			<textarea name="" id="" cols="10" rows="5">Je suis un &lt;textarea>&lt;/textarea> dont la hauteur se calcule par rapport au bloc de contenu à ma gauche.</textarea>
+		</div>
+	</form>
+	
+</body>
+</html>

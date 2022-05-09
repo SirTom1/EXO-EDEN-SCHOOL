@@ -1,0 +1,39 @@
+/* ====================================
+CSS setup ne rien modifier
+Travailler plus bas
+* ==================================== */
+
+@import url('https://fonts.googleapis.com/css?family=Raleway&display=swap');
+
+body { border: 0; margin: 0; padding: 0; font-family: 'Raleway', sans-serif;}
+header { background-color: #2b2d42; line-height: 80px; }
+nav { background-color: #8d99ae; }
+footer { background-color: #d90429; }
+header, nav, article, footer { color: white; padding: 10px; }
+article { background-color: #edf2f4; color: #000;}
+header, footer { height: 80px; text-align: center; line-height: 5em;}
+h1, p { margin: 0 0 15px 0; }
+nav a { border-bottom: 1px solid rgba(255,255,255,.3); color: white; display: block; line-height: 40px; text-decoration: none; }
+
+/* ====================================
+Travailler à partir d'ici
+* ==================================== */
+
+/* <header> et <footer> ont une hauteur fixe, les éléments contenus dans <main> doivent s'adapter à l'espace vertical libre */
+
+
+/* Etape 1
+présenter le menu à l'horizontal en résolution supérieure à 600px. Le menu
+a une largeur fixe de 200px */
+
+main{
+    display: flex;
+    height: 740px;
+}
+ 
+nav{
+    width: 30%;
+}
+
+/* Etape 2
+les contenus se présentent à la verticale avec un breakpoint à 600px de large. Le menu passe sous l'article */

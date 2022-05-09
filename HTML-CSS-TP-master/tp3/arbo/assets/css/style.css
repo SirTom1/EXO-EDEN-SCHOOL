@@ -1,0 +1,13 @@
+.ligne{
+    background-color: rgb(79, 221, 221);
+    display: inline-block;
+    margin-right: 25px;
+    margin-left: 700px;
+    font-size: 25px;
+}
+.ligne2{
+    background-color: rgb(79, 221, 221);
+    display: inline-block;
+    margin-right: 25px;
+    font-size: 25px;
+}

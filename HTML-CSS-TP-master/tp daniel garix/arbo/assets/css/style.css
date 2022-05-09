@@ -1,0 +1,35 @@
+body{
+    width: 50%;
+    margin: 0 auto;
+}
+h1{
+    text-align: center;
+}
+table{
+    margin: auto;
+    text-align: center;
+    border-collapse: collapse;
+    border: solid rgb(109, 109, 109);
+}
+
+/* quelle e */
+thead{
+    border: solid blue;
+    color: white;
+}
+.background-blue{
+    background-color: rgb(25, 25, 112);
+}
+.border-blue{
+    border: solid blue ;
+}
+.background-gray{
+    background-color: rgb(199, 199, 199);
+}
+.back-grey{
+    background: rgb(221, 221, 221);
+    border: 1px dashed rgb(165, 165, 165);
+}
+th{
+    color: white;
+}

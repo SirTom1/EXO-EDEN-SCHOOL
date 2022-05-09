@@ -1,0 +1,339 @@
+.blocun{
+    margin-top: 10px;
+    margin-right: 10px;
+}
+.T{
+    background-color: rgb(67, 224, 122);
+    font-size: 30px;
+    float: left;
+    padding: 100px;
+    border: 0.2rem solid black;
+    margin-right: 10px;
+    border-radius: 10% 25% 40% 40% ; 
+}
+.A{
+    background-color: aqua;
+    font-size: 30px;
+    float: left;
+    padding: 100px;
+    border: 0.2rem solid black;
+    margin-right: 10px;
+    border-radius: 40% 0.2%;
+}
+
+.B{
+    background-color: rgb(67, 224, 122);
+    font-size: 30px;
+    float: left;
+    padding: 100px;
+    border: 0.2rem solid black;
+    margin-right: 10px;
+    border-radius: 10% 25% 40% 40% ; 
+}
+.C{
+    background-color: aqua;
+    font-size: 30px;
+    float: left;
+    padding: 100px;
+    border: 0.2rem solid black;
+    margin-right: 10px;
+    border-radius: 40% 0.2%;
+}
+.D{
+    background-color: rgb(67, 224, 122);
+    font-size: 30px;
+    float: left;
+    padding: 100px;
+    border: 0.2rem solid black;
+    margin-right: 10px;
+    border-radius: 10% 25% 40% 40% ; 
+}
+.E{
+    background-color: aqua;
+    font-size: 30px;
+    float: left;
+    padding: 100px;
+    border: 0.2rem solid black;
+    margin-right: 10px;
+    border-radius: 40% 0.2%;
+}
+
+/* -------------------------------------------------- */
+.blocdeux{
+    margin-top: 10px;
+    margin-right: 10px;
+}
+.S{
+    background-color: aqua;
+    font-size: 30px;
+    float: left;
+    padding: 100px;
+    border: 0.2rem solid black;
+    margin-right: 10px;
+    border-radius: 40% 0.2%;
+}
+.z1{
+    background-color: rgb(80, 248, 94);
+    font-size: 30px;
+    float: left;
+    padding: 100px;
+    border: 0.2rem solid black;
+    margin-right: 10px;
+    border-radius: 50%;
+}
+    .z2{
+    background-color: tomato;
+    font-size: 30px;
+    float: left;
+    padding: 100px;
+    border: 0.2rem solid black;
+    margin-right: 10px;
+    border-radius: 20% 35%;
+}
+.z3{
+    background-color: rgb(80, 248, 94);
+    font-size: 30px;
+    float: left;
+    padding: 100px;
+    border: 0.2rem solid black;
+    margin-right: 10px;
+    border-radius: 50%;
+}
+    .z4{
+    background-color: tomato;
+    font-size: 30px;
+    float: left;
+    padding: 100px;
+    border: 0.2rem solid black;
+    margin-right: 10px;
+    border-radius: 20% 35%;
+}
+.F{
+    background-color: rgb(67, 224, 122);
+    font-size: 30px;
+    float: left;
+    padding: 100px;
+    border: 0.2rem solid black;
+    margin-right: 10px;
+    border-radius: 10% 25% 40% 40% ; 
+}
+/* -------------------------------------------------- */
+.Bloctrois{
+    margin-top: 10px;
+    margin-right: 10px;
+}
+.R{
+    background-color: rgb(67, 224, 122);
+    font-size: 30px;
+    float: left;
+    padding: 100px;
+    border: 0.2rem solid black;
+    margin-right: 10px;
+    border-radius: 40% 0.2%;
+}
+.z6{
+    background-color: rgb(80, 248, 94);
+    font-size: 30px;
+    float: left;
+    padding: 100px;
+    border: 0.2rem solid black;
+    margin-right: 10px;
+    border-radius: 50%;
+}
+    .z5{
+    background-color: tomato;
+    font-size: 30px;
+    float: left;
+    padding: 100px;
+    border: 0.2rem solid black;
+    margin-right: 10px;
+    border-radius: 20% 35%;
+}
+.z7{
+    background-color: rgb(177, 27, 0);
+    font-size: 30px;
+    float: left;
+    padding: 100px;
+    border: 0.2rem solid black;
+    margin-right: 240px;
+    border-radius: 20% 35%;
+}
+
+.G{
+    background-color: aqua;
+    font-size: 30px;
+    float: left;
+    padding: 100px;
+    border: 0.2rem solid black;
+    margin-right: 10px;
+    border-radius: 10% 25% 40% 40% ; 
+}
+/* ----------------------Bloc blocquatre---------------------------- */
+.blocquatre{
+    margin-top: 10px;
+    margin-right: 10px;
+}
+.H{
+    background-color: rgb(67, 224, 122);
+    font-size: 30px;
+    float: left;
+    padding: 100px;
+    border: 0.2rem solid black;
+    margin-right: 10px;
+    border-radius: 40% 0.2%;
+}
+.z9{
+    background-color: rgb(80, 248, 94);
+    font-size: 30px;
+    float: left;
+    padding: 100px;
+    border: 0.2rem solid black;
+    margin-right: 10px;
+    border-radius: 50%;
+}
+    .z10{
+    background-color: tomato;
+    font-size: 30px;
+    float: left;
+    padding: 100px;
+    border: 0.2rem solid black;
+    margin-right: 220px;
+    border-radius: 20% 35%;
+}
+.z12{
+    background-color: tomato;
+    font-size: 30px;
+    float: left;
+    padding: 100px;
+    border: 0.2rem solid black;
+    margin-right: 10px;
+    border-radius: 20% 35%;
+}
+
+.Q{
+    background-color: aqua;
+    font-size: 30px;
+    float: left;
+    padding: 100px;
+    border: 0.2rem solid black;
+    margin-right: 10px;
+    border-radius: 10% 25% 40% 40% ; 
+}
+
+/* ----------------------Bloc bloccinq---------------------------- */
+.bloccinq{
+    margin-top: 10px;
+    margin-right: 10px;
+}
+.I{
+    background-color: rgb(67, 224, 122);
+    font-size: 30px;
+    float: left;
+    padding: 100px;
+    border: 0.2rem solid black;
+    margin-right: 10px;
+    border-radius: 40% 0.2%;
+}
+.z13{
+    background-color: tomato;
+    font-size: 30px;
+    float: left;
+    padding: 100px;
+    border: 0.2rem solid black;
+    margin-right: 220px;
+    border-radius: 20% 35%;
+}
+    .z15{
+    background-color: tomato;
+    font-size: 30px;
+    float: left;
+    padding: 100px;
+    border: 0.2rem solid black;
+    margin-right: 1 0px;
+    border-radius: 20% 35%;
+}
+.z16{
+
+    background-color: rgb(80, 248, 94);
+    font-size: 30px;
+    float: left;
+    padding: 100px;
+    border: 0.2rem solid black;
+    margin-right: 10px;
+    border-radius: 50%;
+    }
+
+.P{
+    background-color: aqua;
+    font-size: 30px;
+    float: left;
+    padding: 100px;
+    border: 0.2rem solid black;
+    margin-right: 10px;
+    border-radius: 10% 25% 40% 40% ; 
+}
+/* --------Bloc fin --------- */
+.blocfin{
+    margin-top: 10px;
+    margin-right: 10px;
+}
+.N{
+    background-color: rgb(67, 224, 122);
+    font-size: 30px;
+    float: left;
+    padding: 100px;
+    border: 0.2rem solid black;
+    margin-right: 10px;
+    border-radius: 10% 25% 40% 40% ; 
+}
+.O{
+    background-color: aqua;
+    font-size: 30px;
+    float: left;
+    padding: 100px;
+    border: 0.2rem solid black;
+    margin-right: 10px;
+    border-radius: 40% 0.2%;
+}
+
+.L{
+    background-color: rgb(67, 224, 122);
+    font-size: 30px;
+    float: left;
+    padding: 100px;
+    border: 0.2rem solid black;
+    margin-right: 10px;
+    border-radius: 10% 25% 40% 40% ; 
+}
+.M{
+    background-color: aqua;
+    font-size: 30px;
+    float: left;
+    padding: 100px;
+    border: 0.2rem solid black;
+    margin-right: 10px;
+    border-radius: 40% 0.2%;
+}
+.J{
+    background-color: rgb(67, 224, 122);
+    font-size: 30px;
+    float: left;
+    padding: 100px;
+    border: 0.2rem solid black;
+    margin-right: 10px;
+    border-radius: 10% 25% 40% 40% ; 
+}
+.K{
+    background-color: aqua;
+    font-size: 30px;
+    float: left;
+    padding: 100px;
+    border: 0.2rem solid black;
+    margin-right: 10px;
+    border-radius: 40% 0.2%;
+}
+
+
+.clear{
+    clear: both;
+}

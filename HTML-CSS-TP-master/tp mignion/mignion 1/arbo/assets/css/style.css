@@ -1,0 +1,30 @@
+table{
+    border-collapse: collapse;
+    width: 23%;
+    margin: auto;
+    height: 600px;
+}
+
+td{
+    border: solid black;
+    font-weight: lighter;
+}
+
+.b-jaune{
+    background-color: yellow;
+}
+.b-gris{
+    background-color: gray;
+}
+
+.b-blanc{
+    background-color: white;
+}
+
+.b-black{
+    background-color: black;
+}
+
+.b-bleue{
+    background-color: blue;
+}

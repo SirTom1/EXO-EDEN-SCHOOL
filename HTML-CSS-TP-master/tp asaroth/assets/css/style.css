@@ -1,0 +1,112 @@
+body{
+    background-color: rgb(231, 231, 231);
+    width: 75%;
+    margin: 10px auto;
+    font-family: 'Roboto', sans-serif;
+}
+header{
+    background-color: white;
+    height: 155px;
+
+}
+h1{
+    font-size: 60px;
+    margin: 0;
+}
+
+.logo{
+        float: left;
+        width: 8%;
+        margin-top: 35px;
+        margin-bottom: 47px;
+        margin-right: 40px;
+    }
+.text{
+    margin-left: 10px;
+    width: 98%;
+    text-align: left;
+    font-style: italic;
+
+}
+.m-t-2{
+    margin-top: -14px;
+    color: rgb(255, 53, 139);
+
+}
+.num {
+    background: url(../img/aide.png);
+        background-position-x: 0%;
+        background-position-y: 0%;
+        background-repeat: repeat;
+    background-repeat: no-repeat;
+    background-position: left;
+    padding-left: 31px;
+    font-size: 21px;
+}
+.bloc1{
+    float: left;
+    width: 44%;
+}
+.bloc2{
+    float: left;
+    width: 25%;
+}
+.horaire{
+    font-size: 20px;
+    font-weight: lighter;
+}
+h2{
+    color: rgb(1, 176, 240);
+}
+.m-0{
+    margin: 0px;
+}
+.m-t{
+    margin-top: 20px;
+    font-size: 30px;
+}
+.bloc3{
+    float: right;
+    width: 25%;
+    background-color: rgb(0, 183, 255);
+    text-align: center;
+    color: white;
+}
+h3{
+    border-bottom: solid white;
+}
+.ff{
+    float: left;
+}
+.ff15{
+    float: left;
+}
+
+h5{
+    display: inline;
+    padding: 5px 25px;
+    font-size: 20px;
+    color: white;
+}
+nav{
+    background-color: rgb(0, 183, 255);
+
+}
+.b-r{
+    background-color: rgb(255, 53, 139);
+}
+
+
+#pubfond{
+    background-image: url(../img/azzaro-pub.jpg);
+    background-size: cover;
+  }
+#hazar{
+    text-align: right;
+    padding: 40% 14% 12% 0px;
+    font-size: 40px;
+    margin-top: 0px;
+  }
+  main{
+      background-color: white;
+  }

@@ -1,0 +1,50 @@
+main{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  #backfirst{
+    background: url(../img/building2.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 494px;
+    margin: auto;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    order: -4;
+}
+
+
+.borderbox{
+    width: 48%;
+    height: 182px;
+}
+
+.back{
+    width: 48%;
+
+}
+
+.dublimg{
+    height: 182px;
+    width: 50%;
+}
+
+  iframe{
+    width: 50%;
+    height: 100%;
+    order: -1;
+  }
+
+  .burg{
+      order: -2;
+  }
+  .ord{
+    order: -3;
+
+  }

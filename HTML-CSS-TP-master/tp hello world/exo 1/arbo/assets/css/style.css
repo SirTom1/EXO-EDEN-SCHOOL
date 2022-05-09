@@ -1,0 +1,31 @@
+/* ---------Font color--------- */
+.colorr{
+    color: tomato;
+    margin: auto 0;
+}
+.colorb{
+    color: aqua;
+    margin: auto 0;
+
+}
+.colorv{
+    color: goldenrod;
+    margin: auto 0;
+    
+}
+/* ----background color --------*/
+.backcolorr{
+    background-color: tomato;
+    margin: auto 0;
+}
+.backcolorb{
+    background-color: aqua;
+    margin: auto 0;
+
+}
+.backcolorv{
+    background-color: goldenrod;
+    margin: auto 0;
+
+}
+/* -------------bas---------- */

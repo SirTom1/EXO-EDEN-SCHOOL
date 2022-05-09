@@ -1,0 +1,146 @@
+body{
+    width: 70%;
+    margin: auto;
+    
+}
+h1{
+    text-transform: uppercase;
+    border-top: solid;
+    border-bottom: solid;
+    text-align: center;
+    width: 25%;
+    margin: auto;
+}
+.t1{
+    text-transform: uppercase;
+    text-align: center;
+    color: rgb(99, 24, 24);
+}
+.t2{
+    text-align: center;
+    font-style: italic;
+}
+
+.plat{
+    width: 50%;
+    float: left;
+}
+.t3{
+    text-align: right;
+    font-style: italic;
+    width: 50%;
+    float: right;
+    margin-top: 300px;
+    border-bottom: solid;
+    position: relative;
+    right: 240px;
+    
+}
+
+h4 {
+    text-align: right;
+    right: 236px;
+    float: right;
+    position: relative;
+    font-size: 22px;
+    text-transform: uppercase;
+    top: -35px;
+}
+
+.clear{
+    clear: both;
+}
+h2{
+    text-transform: uppercase;
+    border-bottom: solid;
+    margin-right: 50px;
+}
+.c-1-l{
+    width: 50%;
+    float: left;
+    margin-top: 160px;
+}
+.c-1-r{
+    width: 50%;
+    float: right;
+}
+p {
+    font-size: 25px;
+    font-style: italic;
+    line-height: 85%;
+}
+.star{
+    background-color: black;
+    color: white;
+    float: left;
+    padding-left: 10px;
+    padding-right: 50px;
+    text-transform: uppercase;
+}
+
+.c-2-r{
+    width: 50%;
+    float: right;
+    margin-top: 160px;
+}
+.c-2-l{
+    margin-top: 206px;
+    width: 50%;
+    float: left;
+}
+
+img{
+    width: 100%;
+}
+.margin-text{
+    margin-left: 40px;
+}
+
+.c-3-l{
+    width: 50%;
+    float: left;
+    margin-top: 160px;
+}
+.c-3-r{
+    width: 50%;
+    float: right;
+    margin-top: -8px;
+}
+
+.c-4-r{
+    width: 50%;
+    float: right;
+    margin-top: 160px;
+}
+.c-4-l{
+    margin-top: 283px;
+    width: 50%;
+    float: left;
+}
+
+footer{
+    text-align: center;
+    margin-top: 200px;
+    margin-bottom: 100px;
+}
+h5{
+    font-size: 20px;
+    font-weight: lighter;
+    margin-bottom: 0px;
+}
+h6{
+    margin-top: 0px;
+    font-size: 10px;
+    font-weight: lighter;
+}
+.b-plan{
+    background: url(../img/plan.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 10px;
+    margin-bottom: 25px;
+}
+
+#numero{
+font-size: 12px;
+}

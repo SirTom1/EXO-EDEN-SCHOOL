@@ -1,0 +1,67 @@
+/* ====================================
+CSS setup ne rien modifier
+Aller plus bas pour le TP
+* ==================================== */
+
+body { margin: 0; padding: 0; border: 0; }
+section { min-height: 100vh; }
+div { background-color: lightgrey; }
+div:nth-of-type(5n+1) { background-color: #0d1f2d; }
+div:nth-of-type(5n+2) { background-color: #546a7b; }
+div:nth-of-type(5n+3) { background-color: #9ea3b0; }
+div:nth-of-type(5n+4) { background-color: #fae1df; }
+div:nth-of-type(5n) { background-color: #e4c3ad; }
+span { background-color: rgba(255, 255, 255, .5); border-radius: 50%; display: block; font-size: 48px; height: auto; line-height: 3em; text-align: center; width: 3em; }
+
+/* ====================================
+TP à partir d'ici
+* ==================================== */
+
+/* Etape 1 
+basculer les boîtes à la verticale */    
+section{
+    display: flex;
+    flex-wrap: wrap;
+    flex-grow: initial;
+    
+}
+#DB{
+    display: none;
+}
+/* Etape 2 
+autoriser le retour à la ligne, et placer 4 items par ligne en déterminant leur largeur (2 propriétés possibles).*/
+div{
+    width: 24%;
+
+}
+
+/* Etape 3
+appliquer des   marges aux boîtes, puis centrer le contenu. Ajouter de nouvelles boîtes et observer le comportement d'affichage. */
+
+div{
+    margin: 13px 7px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+
+/* Etape 4
+étendre la boîte 5 à toute la largeur
+*/
+
+section{
+    flex-direction: column;
+}
+
+#DB{
+    display: block;
+}
+/* Etape 5
+ajouter un breakpoint à 1024px de large en-dessous duquel il n'y a plus que 2 boites par ligne (sauf la 5 qui reste à 100%)
+*/
+
+
+/* Etape 6
+ajouter un autre breakpoint à 600px de large en-dessous duquel toutes les boites sont les une au-dessus des autres */

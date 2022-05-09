@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        *{
+            box-sizing: border-box;
+        }
+        html{
+            width: 100%;
+            height: inherit;  /* hérite du parent window pour la propriété height */
+        }
+        body{
+            margin: 0;
+        }
+        canvas{
+            display: block; /* pour que le canvass s'adapte à la taille du body*/
+            border: 4px solid crimson;
+        }
+        button{
+            position: absolute;
+            top: 20px;
+            left: 20px;
+        }
+    </style>
+</head>
+<body>
+    <button>Dessine</button>
+    <canvas></canvas>
+
+    <script>
+        var btn = document.querySelector('button');
+        var canvas = document.querySelector('canvas');
+        var feuille = canvas.getContext('2d');
+
+        var WIDTH = document.documentElement.clientWidth;
+        var HEIGHT = document.documentElement.clientHeight;
+
+        canvas.width = WIDTH;
+        canvas.height = HEIGHT;
+
+        function random(number){
+            // Math.floor convertit en nombre entier
+            return Math.floor(Math.random()* number);
+            // ici on convertit en nombre entier (sans virgule) le nombre randomnisé et multiplié par la valeur number (qui est l'argument donné en entrée de la fonction)
+        }
+        function dessineUnCercle(){
+            feuille.clearRect(0,0, WIDTH, HEIGHT); // efface le contenu du canvas
+            
+            // 3 paramètres à indiquer dans les parenthèsses de for, séparés par des POINTS VIRGULES
+            /*
+            1/ la déclaration de la variable de départ i
+            2/ La condition pour que la boucle continue
+            3/ Incrémentation à la fin de chaque passage dans la boucle
+
+            A FAIRE TOUS SEULS : la boucle doit être éxécutée 100 fois
+            */
+            for(var i=0; i<100; i++){
+                // INSTRUCTIONS A REALISER AUTANT DE FOIS QUE LA BOUCLE LE DIT
+                feuille.beginPath();
+                feuille.fillStyle = 'hsla( '+  random(360)  +', 100%, 50%, .5)';
+
+                // dessiner un cercle de 30px de diamètre, positionné à 100px en x et 100px en y de l'angle gauche du canvas
+                // feuille.arc(x,y, radius, startAngle, endAngle)
+                feuille.arc(random(WIDTH), random(HEIGHT), random(50), 0, 2 * Math.PI);
+                feuille.fill();
+
+            } // FIN DE LA BOUCLE FOR
+
+
+
+
+
+           
+
+
+        } // FIN DE LA FONCTION dessineUnCercle
+        
+// paramètres de addEventListener : événement, action
+// ATTENTION QUAND ON VEUT DECLENCHER UNE FONCTION LORS D'UN EVENEMENT, NE SUTRTOUT PAS METTRE DES COUPLE DE PARENTHESE APRES LE NOM DE LA FONCTION (sinon la fonction d'exécute toute seule avant même le clic)
+      
+// ON DECLENCHE LA FONCTION AU CLICK
+btn.addEventListener('click', dessineUnCercle);
+    </script>
+</body>
+</html>

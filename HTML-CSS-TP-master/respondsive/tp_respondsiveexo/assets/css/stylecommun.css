@@ -1,0 +1,29 @@
+body{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1{
+    display: none;
+    color: black;
+    padding: 3vh 30vw;
+
+    text-align: center;
+}
+
+div{
+    min-width:100%;
+    border-radius: 50%;
+    min-height: 100%;
+}
+
+
+section{
+    height: 47vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 47vw;
+  }

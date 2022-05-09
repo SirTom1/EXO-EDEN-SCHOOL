@@ -1,0 +1,161 @@
+body{
+    width: 60%;
+    margin: 0 auto;
+    background-color: white;
+    text-align: center  ;
+}
+
+.blocdeux{
+    background-color: rgb(177, 177, 177);
+    font-size: 40px;
+}
+
+/* --------- */
+.global{
+    margin: 0 auto;
+    width: 80%;
+
+}
+.zoning{
+    padding-top: 60px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+/* case */
+
+.head1{
+    background-color: rgb(28, 52, 101);
+    text-align: center;
+    font-size: 30px;
+    height: 200px;
+    margin: 0 auto;
+    float: left;
+    width: 25%;
+
+}
+.head2{
+    background-color: rgb(58, 87, 147);
+    text-align: center;
+    font-size: 30px;
+    height: 200px;
+    margin: 0 auto;
+    float: left;
+    width: 50%;
+
+}
+.head3{
+    background-color: rgb(28, 52, 101);
+    text-align: center;
+    font-size: 30px;
+    height: 200px;
+    margin: 0 auto;
+    float: right;
+    width: 25%;
+
+}
+/* ------------------ */
+.menu{
+    background-color: rgb(0, 83, 108);    
+    text-align: center;
+    font-size: 30px;
+    width: 100%;
+    margin: 0 auto;
+
+}
+
+/* case */
+
+.zg{
+    background-color: rgb(58, 105, 122);
+    text-align: center;
+    font-size: 30px;
+    height: 600px;
+    margin: 0 auto;
+    float: left;
+    width: 20%;
+
+}
+.a{
+    background-color: rgb(191, 197, 206);
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    height: 200px;
+    margin: 0 auto;
+    float: left;
+    width: 40%;
+
+}
+.b{
+    background-color: rgb(28, 52, 101);
+    text-align: center;
+    font-size: 30px;
+    height: 200px;
+    margin: 0 auto;
+    float: right;
+    width: 40%;
+
+}
+/* ------------------ */
+.slide{
+    background-color: rgb(42, 75, 83);
+    text-align: center;
+    font-size: 30px;
+    height: 200px;
+    margin: 0 auto;
+    float: right;
+    width: 80%;
+
+}
+/* --------------------- */
+.c{
+    background-color: rgb(191, 197, 206);
+    text-align: center;
+    font-size: 30px;
+    height: 200px;
+    margin: 0 auto;
+    float: left;
+    color: white;
+    width: 20%;
+
+}
+.d{
+    background-color: rgb(28, 52, 101);
+    text-align: center;
+    font-size: 30px;
+    height: 200px;
+    margin: 0 auto;
+    float: left;
+    width: 20%;
+
+}
+.e{
+    background-color: rgb(191, 197, 206);
+    text-align: center;
+    font-size: 30px;
+    height: 200px;
+    margin: 0 auto;
+    float: left;
+    width: 20%;
+    color: white;
+
+}
+.f{
+    background-color: rgb(28, 52, 101);
+    text-align: center;
+    font-size: 30px;
+    height: 200px;
+    margin: 0 auto;
+    float: right;
+    width: 20%;
+
+}
+.bas{
+    background-color: rgb(0, 83, 108);    
+    text-align: center;
+    font-size: 30px;
+    width: 100%;
+    margin: 0 auto;
+
+}

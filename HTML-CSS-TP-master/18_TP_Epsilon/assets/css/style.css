@@ -1,0 +1,109 @@
+body, h1{
+    margin: 0;
+}
+header{
+    background: url(../images/banner.jpg) no-repeat;
+  background-size: cover;
+  color: white;
+  padding: 75px 0px;
+  background-position: center;
+}
+
+.sousunder{
+    text-decoration: underline;
+}
+.tac{
+    text-align: center;
+}
+.uppcase , button{
+    text-transform: uppercase;
+}
+
+
+main{
+    background-color: #f4f4f4;
+    padding-top: 60px;
+}
+
+
+
+
+
+#sect1{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 53px 10px;
+    margin: 10px 70px;
+  }
+#rond{
+    border: solid black;
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+    margin: auto;
+  }
+
+#sect2{
+    display: flex;
+    flex-wrap: wrap;
+    width: 50%;
+    margin: auto;
+  
+}
+#sect4{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    padding: 53px 10px;
+    margin: 10px 70px;
+  }
+.boxeS{
+    background-color: white;
+    display: flex;
+    flex-wrap: wrap;
+    width: 48%;
+    margin: 1%;
+    justify-content: center;
+}
+.imagewidth100{
+    width: 100%;
+}
+
+button{
+    background-color: white;
+    border: solid black;
+    color: black;
+    border-radius: 10%;
+}
+
+button:hover{
+    border: solid purple;
+    color: purple;
+}
+
+#sect3{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 53px 10px;
+}
+
+#get{
+    width: 8%;
+    margin: auto;
+  
+}
+
+#tktbg{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  
+}
+#fd{
+    display: flex;
+    flex-direction: column;
+  
+}

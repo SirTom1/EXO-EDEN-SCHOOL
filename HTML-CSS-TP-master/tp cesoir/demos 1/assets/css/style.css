@@ -1,0 +1,154 @@
+body{
+    background-color: rgb(160, 196, 182);
+    width: 85%;
+    margin: auto;
+}
+
+section{
+    background: url(../img/woddPlank.jpg);
+    width: 70%;
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 5px;
+}
+.f-btn{
+    float: right;
+    display: flex;
+    width: 50%;
+
+}
+
+h1{
+    float: left;
+    margin: 30px 50px;
+    font-size: 50px;
+    font-family: 'Caveat Brush', cursive;
+    color: rgb(60, 61, 61);
+}
+h2 {
+    margin: 40px 25px;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+}
+a{
+    color: black;
+    text-decoration: none;
+}
+
+#r-b-n-b{
+    background-color: #E53F6F;
+    height: 12px;
+    width: 4%;
+    position: relative;
+    top: 113px;
+    left: 105px;
+}
+
+#efe{
+    border-bottom: 5px solid;
+    position: relative;
+    font-size: 33px;
+    top: -10px;
+    left: -10px;
+}
+
+#cerf{
+    height: 400px;
+    float: left;
+}
+#ougoulou{
+    text-align: center;
+    margin: auto;
+    margin-top: 150px;
+}
+
+#triangle {
+    border: 0 solid transparent;
+    border-left-width: 267px;
+    border-right-width: 0px;
+    border-top: 248px solid rgba(229, 63, 111, 0.5);
+    position: relative;
+    top: 105px;
+    float: left;
+    left: 340px;
+    margin-left: 175px;
+}
+
+i{
+    margin-top: 145px;
+    font-size: 50px;
+    color: #E53F6F;
+    font-weight: 10px;
+    text-align: center;
+    padding-left: 620px;
+
+}
+
+
+
+#w-t-b{
+    background: url(../img/memphis-mini.png);
+    width: 40%;
+    float: left;
+    height: 495px;
+}
+h3{
+    text-align: center;
+}
+#w-s-b-left{
+    background: url(../img/asperge.jpg);
+    width: 60%;
+    float: right;
+    height: 495px;
+    background-repeat: no-repeat;
+}
+h4{
+    color: #E53F6F;
+    text-transform: uppercase;
+}
+
+
+#w-t-b-2{
+    background: url(../img/memphis-mini.png);
+    width: 40%;
+    float: right;
+    height: 496px;
+}
+#w-s-b-left-2{
+    background: url(../img/soap.jpg );
+    width: 60%;
+    float: left;
+    height: 496px;
+    background-repeat: no-repeat;
+    background-size: 800px;
+}
+
+#w-t-b-3{
+    background: url(../img/memphis-mini.png);
+    width: 40%;
+    float: left;
+    height: 495px;
+}
+#w-s-b-left-3{
+    background: url(../img/moule.jpg);
+    width: 60%;
+    float: right;
+    height: 495px;
+    background-repeat: no-repeat;
+}
+#AHhhhhhhhhhhhhhhhhhhh{
+    background-color: black;  
+}
+
+
+
+
+
+
+
+
+#clear{
+    clear: both;
+}
+

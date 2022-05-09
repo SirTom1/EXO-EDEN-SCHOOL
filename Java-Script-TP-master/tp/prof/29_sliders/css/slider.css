@@ -1,0 +1,88 @@
+*
+{
+    box-sizing: border-box;
+}
+
+a
+{
+    color: #2A8782;
+    text-decoration: none;
+    transition: text-shadow 0.25s;
+}
+a:hover
+{
+    text-shadow: 0 0 4px grey;
+}
+
+body
+{
+    /* structure */
+    margin: 0 auto;
+    overflow-y: scroll;
+    width: 80%;
+
+    /* presentation */
+    background: url('../images/concrete_seamless.png') repeat;
+}
+body, button
+{
+    font-family: 'Open Sans', sans-serif;
+}
+
+h1
+{
+    color: #015770;
+    letter-spacing: 0.1em;
+}
+
+header
+{
+    padding-bottom: 2em;
+}
+
+
+.hide
+{
+    display: none;
+}
+
+.slider
+{
+    -webkit-backface-visibility: hidden; /* obligatoire pour éviter l'effet de crénelage sous Chrome */
+
+    text-align: center;
+    transform: rotate(-3deg);
+    transform-origin: 50% 50%;
+}
+.slider figcaption
+{
+    color: #2A8782;
+    font-size: 2em;
+    font-weight: bold;
+    text-shadow: 0 0 4px grey;
+}
+.slider img
+{
+    background-color: white;
+    padding: 1em;
+    border-radius: 6px;
+    box-shadow: 0 0 8px black;
+}
+
+.toolbar ul
+{
+    /* structure */
+    padding-left: 0;
+
+    /* presentation */
+    list-style-type: none;
+    text-align: center;
+}
+.toolbar ul li
+{
+    display: inline-block;
+}
+.toolbar ul li + li
+{
+    margin-left: 1em;
+}

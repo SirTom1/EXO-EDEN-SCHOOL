@@ -1,0 +1,73 @@
+table{
+    border-collapse: collapse;
+    width: 33%;
+    margin: auto;
+    height: 900px;
+}
+
+
+
+.b-black{
+    background-color: black;
+}
+
+.b-brun{
+    background-color: rgb(47, 37, 25);
+}
+.b-brunclaire{
+    background-color: rgb(66, 50, 35);
+}
+.b-beigeclaire{
+    background-color: rgb(253, 170, 126);
+}
+.b-baige{
+    background-color: rgb(255, 154, 100);
+}
+
+.b-vert{
+    background-color: rgb(48, 74, 26); 
+}
+.b-vertmoinfoncé{
+    background-color: rgb(66, 89, 33);
+}
+.b-vertfoncer{
+    background-color: rgb(37, 50, 20);
+}
+.b-vertclaire{
+    background-color: rgb(103, 150, 56);
+}
+
+.b-vertfoncdé{
+    background-color: rgb(52, 68, 31);
+}
+
+.b-b{
+    background-color: rgb(253, 231, 182);
+}
+
+.b-b2{
+    background-color: rgb(251, 236, 207);
+}
+
+.b-marron {
+    background-color: rgb(115, 44, 14);
+}
+.b-marronclodo{
+    background-color: rgb(134, 82, 45);
+}
+.b-maronclair{
+    background-color: rgb(137, 52, 11);
+}
+
+.b-marronshort{
+    background-color: rgb(133, 80, 46);
+}
+.b-marron3{
+    background-color: rgb(154, 96, 48);
+}
+.b-marronder{
+    background-color: rgb(148, 96, 49);
+}
+.b-gold{
+    background-color: gold;
+}

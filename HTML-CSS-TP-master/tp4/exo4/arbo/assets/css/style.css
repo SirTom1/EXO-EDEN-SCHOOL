@@ -1,0 +1,48 @@
+body{
+    width: 60%;
+    margin: 0 auto;
+    background-color: white;
+    text-align: center  ;
+}
+
+.blocdeux{
+    background-color: rgb(177, 177, 177);
+    font-size: 40px;
+    height: 952px;
+}
+
+/* --------- */
+.global{
+    margin: 0 auto;
+    width: 60%;
+    border: 0.2rem solid ;
+
+}
+.zoning{
+    padding-top: 100px;
+    margin: 0 auto;
+    text-align: left;
+}
+.head{
+    background-color: rgb(31, 31, 161);
+    text-align: center;
+    font-size: 30px;
+    height: 100px;
+    margin: 0 auto;
+
+}
+.nav{
+    background-color: rgb(31, 144, 172);
+    text-align: center;
+    font-size: 30px;
+    height: 50px;
+    margin: 0 auto;
+    border-bottom: 10px solid aqua;
+
+}
+
+section{
+    background-color: rgb(25, 0, 255);
+    height: 400px;
+    border: 2rem solid white;
+}

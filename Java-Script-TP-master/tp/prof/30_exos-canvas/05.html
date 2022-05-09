@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <style>
+        #mycanvas{
+            width: 100%;
+            background-color: red;
+        }   
+        body{
+            margin: auto;
+            width: 50%;
+            height: 10%;
+
+        }
+    </style>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <header>
+        <h1>Dessin</h1>
+    </header>
+    <main>
+        Coordonnées de la souris : <span id="info_sourit"></span>
+        <br/>
+        Coordonnées de l'image : <span id="info_image"></span>
+        <br/>
+        Coordonnées des points : <span id="info_point"></span>
+        <div id="image" style="margin: 15px;" ></div>
+
+        <canvas id="mycanvas" onmousemove="souris(event);"></canvas>
+
+    </main>
+    <script>
+        function souris(event)
+{
+    var sourit_x = event.clientX;
+    var sourit_y = event.clientY;
+    document.getElementById('info_sourit').innerHTML = 'x:' + sourit_x + ', y:' + sourit_y;
+ 
+    var image_x = document.getElementById("image").offsetLeft;
+    var image_y = document.getElementById("image").offsetTop;
+    document.getElementById("info_image").innerHTML = "x:" + image_x + ", y:" + image_y;
+ 
+    var point_x = sourit_x - image_x;
+    var point_y = sourit_y - image_y;
+    document.getElementById("info_point").innerHTML = "x:" + point_x + ", y:" + point_y;
+}
+    </script>
+</body>
+</html>

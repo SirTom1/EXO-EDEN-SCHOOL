@@ -1,0 +1,51 @@
+body{
+    background-color: white;
+    text-align: center  ;
+}
+
+section{
+    background-color: rgb(177, 177, 177);
+    width: 70%;
+    margin: 0 auto;
+
+}
+article{
+    width: 70%;
+    margin: 0 auto;
+    padding: 10% 0;
+}
+
+h1{
+    margin: 0;
+}
+.zh{
+    background-color: rgb(240, 225, 137);
+    display: block;
+    text-align: center;
+    font-size: 20px;
+
+    height: 100px;
+}
+.zg{
+    background-color: rgb(90, 184, 95);
+    font-size: 20px;
+    text-align: center;
+    height: 500px;
+
+}
+.czg{
+    float: left;
+    width: 20%;
+}
+.czd{
+    display: inline;
+    width: 80%;
+
+}
+.zd{
+    background-color: rgb(33, 88, 75);
+    font-size: 20px;
+    text-align: center;
+    height: 500px;
+
+}

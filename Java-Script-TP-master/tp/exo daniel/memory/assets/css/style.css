@@ -1,0 +1,39 @@
+#posFix{
+    position: fixed;
+    left: 14%;
+    top: 2%;
+  }
+
+#bord{
+    border: solid black;
+    height: 850px;
+    width: 70%;
+    margin: auto;
+    padding: 2%;
+    padding-bottom: 0.5%;
+  }
+
+  #DisJus{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 100px;
+    margin-top: 20px;
+
+  }
+  .DisJus2{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    flex-wrap: wrap;
+  }
+  .carte{
+    padding: 16px 60px;
+    width: 9%;
+}
+ 
+  
+  #place{
+    display: flex;
+    justify-content: center;
+  
+  }

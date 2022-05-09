@@ -1,0 +1,100 @@
+body{
+    width: 90%;
+    margin: auto;
+    background: #f4f4f4;
+    padding-bottom: 750px;
+}
+h1{
+    text-align: center;
+    margin-top: 150px;
+}
+
+.icon{
+    float: left;
+    width: 25%;
+    text-align: center;
+
+}
+.icon2{
+    float: right;
+    width: 25%;
+    text-align: center;
+
+}
+
+i{
+    background-color: rgb(41, 145, 172);
+    width: 17px;
+    text-align: center;
+    padding: 43px;
+    border-radius: 50px;
+    color: white;
+    margin-top: 50px;
+    margin-left: 27px;
+    margin-bottom: 15px;
+}
+.titreblue{
+    color: rgb(41, 145, 172);
+}
+
+p{
+    display: inline;
+}
+#colortitre{
+    color: gray;
+}
+
+main{
+    margin: auto;
+    margin-top: 400px;
+
+}
+#f-l {
+    background-color: white;
+    float: left;
+    width: 40%;
+    padding-bottom: 8px;
+    margin-left: 18%;
+}
+img{
+    float: left;
+    width: 100%;
+}
+
+#margeleft{
+    margin: 40px 30px;
+}
+
+.float-lft-in{
+    float: left;
+    width: 40%;
+    margin: 20px;
+}   
+input{
+    border: solid white;
+    border-bottom: 1px solid gray;
+    width: 100%;
+}
+h3{
+    text-transform: uppercase;
+}
+textarea{
+    border: solid white;
+    border-bottom: 1px solid gray;
+
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    background-color: rgb(41, 145, 172);
+    padding: 10px 50px;
+    position: relative;
+    top: 25px;
+    border-radius: 10px;
+
+}
+#f-r{
+    float: left;
+    width: 25%;
+}

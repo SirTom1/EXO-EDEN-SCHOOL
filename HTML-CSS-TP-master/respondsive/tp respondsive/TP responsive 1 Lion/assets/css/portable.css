@@ -1,0 +1,11 @@
+cite:nth-of-type(4){
+    display: block;
+}
+
+section{
+    display: flex;
+    flex-direction: column;
+}
+.block_case{
+    width: 98%;
+}

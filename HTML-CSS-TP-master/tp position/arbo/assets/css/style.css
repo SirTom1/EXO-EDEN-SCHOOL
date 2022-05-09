@@ -1,0 +1,97 @@
+body{
+    height: 1000px;
+}
+nav{
+    background-color: rgba(131, 131, 131, 0.8);
+    position: fixed;
+    width: 100%;
+}
+.logo{
+    border-radius: 85px;
+    border: solid blueviolet;
+    float: left;
+    width: 75px;
+    margin-left: 50px;
+}
+ul{
+    display: flex;
+    margin: auto;
+}
+
+li{
+    align-items: center;
+    display: inline-block;
+    margin: 17px;
+    padding: 8px;
+}
+#b-display{
+    border-style: solid;
+    border-image: 
+      linear-gradient(
+        to bottom, 
+        black, 
+        black
+      ) 1 100%;
+      border-left-width: 2px;
+      border-right-width: 2px;
+      border-top-width: 0px;
+      height: 43px;
+      padding: 9px 25px;
+}
+.paw1{
+    margin-top: 20px;
+    font-size: 132px;
+    position: fixed;
+    margin-left: 1000px;
+}
+#rond{
+    background-color: orange;
+    height: 120px;
+    width: 120px;
+    border-radius: 105px;
+    float: right;
+    margin-right: 500px;
+    margin-top: 140px;
+    position: relative;
+}
+.border{
+    border: dotted green;
+    margin-top: 345px;
+    width: 500px;
+    height: 322px;
+    float: right;
+}
+.cat{
+
+    float: right;
+    margin-top: 420px;
+    margin-left: 50%;
+    position: absolute;
+}
+
+.paw2{
+    margin-top: 200px;
+    font-size: 110px;
+    margin-left: 1000px;
+    color: pink;
+    float: left;
+    margin: auto;
+}
+.dog{
+    margin-left: 30px;
+    float: right;
+    margin-right: 600px;
+    margin-top: 40px;
+}
+
+#arc {
+    width: 110px;
+    height: 262px;
+    border: 20px solid gray;
+    border-radius: 50%;
+    border-left: 60px;
+    border-right: 106px;
+    border-bottom: 117px;
+    float: right;
+    margin-top: 225px;
+}
