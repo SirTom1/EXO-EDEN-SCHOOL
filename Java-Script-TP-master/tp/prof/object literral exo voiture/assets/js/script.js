@@ -20,28 +20,50 @@
  *  - son énergie,
  *  - si elle est sous garantie ou non.
  */
+let h1 = document.querySelectorAll("h1");
+
 let voitour ={
     marque :  "Toyota Sprinter Trueno AE86",
     couleur : "Noir/Blanc",
     motorisation : {
-        posDuMoteur : "Avant",
+        positionDuMoteur : "Avant",
         energie : "essence",
-        puisMax : "6 600 tr/min ",
-        transmi : "Propulsion",
+        puissanceMax : "6 600 tr/min ",
+        transmition : "Propulsion",
         garentie : false
     },
     pav : 940,
-    annee : 1983,
+    année : 1983,
     prix :  32000,
     origin : "japon"
 };
-document.write(`<h1> Voiture ${voitour.fabrican} ${voitour.marque} : </h1> `);
-document.write(`<ul> motorisation :`);
-document.write(`<li> ${this.posDuMoteur} </li>`);
-document.write(`<li>  ${this.posDuMoteur} </li>`);
-document.write(`</ul>`);
-console.log(voitour.motorisation);
 
-for (let prop in voitour.motorisation) {
-    console.log(`obj.${prop} = ${voitour.motorisation[prop]}`);
+
+
+
+
+
+
+document.write(`<h1> Voiture ${voitour.fabrican} ${voitour.marque} : </h1> `);
+
+
+document.write(`<ul>`);
+
+for (let [key, value] of Object.entries(voitour)) {
+    if(key === "motorisation"){
+
+        document.write(`<ul> <h2>Motorisation :</h2> `);
+        for (let [key, value] of Object.entries(voitour.motorisation)) {
+
+            document.write(`<li>${key} :  ${value} </li>`);
+        }
+        document.write(`</ul>`);
+
+    }
+    else{
+        document.write(`<li>${key} :  ${value} </li>`);
+
+    }
 }
+document.write(`</ul>`);
+
