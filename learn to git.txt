@@ -1,0 +1,18 @@
+1 - : ls  ( pour voir tous les fichiers ) 
+
+2 - : cd User ( pour allez voir le fichier ( appuyez sur tab pour allez plus vite))
+
+3 - : git init
+
+4 - : git remote add origin {le lien de github}
+
+5 - : git remote -v (normalement il y a deux lien ) 
+
+6 - : git add .
+
+7 - : git commit -m 'un message'
+
+8 - : git push origin (lien de la branche ) master 
+
+
+git branch -m <newname> : pour rename ta branch 
