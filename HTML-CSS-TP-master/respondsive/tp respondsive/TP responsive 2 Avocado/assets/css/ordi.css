@@ -2,18 +2,16 @@
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: 1fr;
     grid-template-areas:
-    "avocadaGrill avocadaGrill caseCite caseCite"
+    "avocadaGrill avocadaGrill . ."
+    "avocadaGrill avocadaGrill caseCite ."
     "sunSat burger caferMelchior caferMelchior"
-    "carteMaps carteMaps caferMelchior caferMelchior"
-    "makeReservation makeReservation downloadMenu downloadMenu"
-    "chefDaniel chefDaniel OurPhilosophy OurPhilosophy"
-    "chefDaniel chefDaniel OurPhilosophy OurPhilosophy"
-    "pharitas pharitas citeTwo citeTwo"
-    "pharitas pharitas citeTwo citeTwo"
+    ". carteMaps caferMelchior caferMelchior"
+    ". . makeReservation makeReservation "
+    ". downloadMenu chefDaniel OurPhilosophy"
+    "pharitas citeTwo . ."
     "foot foot foot foot"
 ;
 }
-
 .boxadd{
     width: 98%;
     height: 50vw;

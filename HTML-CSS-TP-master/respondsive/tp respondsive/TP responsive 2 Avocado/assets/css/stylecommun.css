@@ -1,64 +1,109 @@
-body{
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-  }
-  main{
+.container{
+    box-sizing: border-box;
     width: 100%;
-    display: flex;
-    flex-direction: column;
-  }
-#backfirst{
-    background: url(../img/building2.jpg);
-    background-size: cover;
-    background-position: center;
-    height: 494px;
-    margin: auto;
+    display: grid;
+
+}
+.box{
     width: 98%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: white;
-} 
-
-.borderbox{
-    border: solid #F2EAE1;
-    height: 490px;
-    display: flex;
-    align-items: center;
-  }
-  cite{
-    margin-left: 3%;
-
-  }
-div{
-    margin: 1% 0px;
+    height: 100vw;
+    margin: auto;
+    margin-top: 10px;
 }
-
-.imgburg{
-    width: 48%;
-  
-}
-#mak{
-    background-color: #5F9300;
-    color: white;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+.boxTwo{
+    width: 98%;
+    height: 50vw;
+    margin: auto;
+    margin-top: 10px;
 }
 
 
 
-footer{
+.avocadaGrill{
+    background: #00abff;
+    grid-area: avocadaGrill;
+}
+
+.caseCite{
+    border: 5px #F2EAE1 solid;
+    grid-area: caseCite;
     display: flex;
-    justify-content: center;
     align-items: center;
+    justify-content: center;
+}
+.sunSat{
+    background: #F2EAE1;
+    grid-area: sunSat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.burger{
+    background: #1abc9c;
+    grid-area: burger;
+
+}
+.caferMelchior{
+    background: #3C65F5;
+    grid-area: caferMelchior;
+
+}
+
+.carteMaps{
+    grid-area: carteMaps;
+
+}
+.makeReservation {
+    background: #8fb996;
+    grid-area: makeReservation;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.OurPhilosophy{
+    grid-area: OurPhilosophy;
+    border: 5px #F2EAE1 solid;
+    display: flex;
     flex-direction: column;
-    border-top: 0.2rem solid;
+    justify-content: center;
 }
-.back{
-    background-color:  #F2EAE1;
-    height: 490px;
+.chefDaniel{
+    background: #9b59b6;
+    grid-area: chefDaniel;
+
+}
+.pharitas{
+    background: #415d43;
+    grid-area: pharitas;
+
+}
+.downloadMenu{
+    background: #F2EAE1;
+    grid-area: downloadMenu;
+    color: green;
     display: flex;
     align-items: center;
-  }
+    justify-content: center;
+
+}
+.citeTwo{
+    grid-area: citeTwo;
+    border: 5px #F2EAE1 solid;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.foot{
+    background: #d90429;
+    grid-area: foot;
+}
+
+iframe{
+    width: 100%;
+    height: 100%;
+}
+
+.quote{
+    width: 10%;
+}
