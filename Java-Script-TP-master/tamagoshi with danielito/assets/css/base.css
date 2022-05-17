@@ -1,0 +1,21 @@
+aside{
+    position: fixed;
+    top: 25vh;
+    left: 80vh;
+    width: 50vh;
+    height: 40vh;
+    background: #8fb996;
+    display: flex;
+
+    align-items: center;
+    justify-content: center;
+}
+.formulaire{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.hidden{
+    display: none;
+}
