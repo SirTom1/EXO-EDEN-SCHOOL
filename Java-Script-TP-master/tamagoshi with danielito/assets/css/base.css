@@ -10,7 +10,7 @@ aside{
     align-items: center;
     justify-content: center;
 }
-.formulaire{
+form{
     display: flex;
     flex-direction: column;
 
