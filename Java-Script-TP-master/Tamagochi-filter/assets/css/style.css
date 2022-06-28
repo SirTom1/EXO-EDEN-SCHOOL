@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Macondo&display=swap');
+
+body{
+    background-color: #D95D39;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    font-family: 'Macondo', cursive;
+}
+    h1{
+        font-size: 3rem;
+    }
+
+
+
+input{
+    margin: 5px;
+}
+
+.d-flex img{
+    width: 50%;
+}
+.cat-flex{
+    display: flex;
+}
+.d-flex{
+    display: flex;
+    justify-content: center;
+}
+.column{
+    margin: auto;
+}
+#confirm{
+    padding: 10px;
+    border: 1px solid white;
+    background-color: #B2967D;
+    width: 50%;
+    margin: 5px;
+}
+.oject-cat-stat{
+    background-color: #E6BEAE;
+    width: 20%;
+    margin: auto;
+}
+
+.stat{
+    background-color: #FCB07E;
+    width: 100%;
+    margin: auto;
+    height: 150px;
+    margin-top: 100px;
+}
+.tamagochi-action{
+    margin: auto;
+    margin-top: 70px;
+    width: 95%;
+}
+
+.form-example{
+    display: flex;
+}
+.mg-auto-w{
+    margin: auto;
+    width: 20%;
+}
+
+h2{
+    text-align: center;
+}

@@ -1,0 +1,280 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap');
+
+:root{
+    --ColorB: #7DBCBB;
+    --ColorG: #707380;
+    --ColorFooter: #303033;
+    --ColorCinS: white; /*color claire in sombre*/
+    --ColorSinC: black; /*color sombre in claire*/
+    --ColorGTWO : #F7F7F7; /*color du background interret*/
+    --Font:'Poppins', sans-serif;
+}
+body{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: var(--Font);
+}
+header{
+    background-image: url(../img/bandeau.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    color: var(--ColorCinS);
+    text-align: center;
+    padding: 2%;
+}
+h1{
+    font-size: 5em;
+    margin-bottom: 0;
+}
+h2{
+    margin-top: 0;
+    font-size: 1.5em;
+    font-weight: lighter;
+  }
+.LogoES{
+    width: 5%;
+}
+ul{
+    display: flex;
+    justify-content: space-around;
+    width: 50%;
+    margin: auto;
+    list-style: none;
+}
+
+a{
+    color: var(--ColorSinC);
+    text-decoration: none;
+}
+li:hover a{
+    color:var(--ColorB);
+}
+
+nav{
+    margin-bottom: 3%;
+
+}
+.UPALL, h3{
+    text-transform: uppercase;
+}
+section{
+    width: 60%;
+    margin: auto;
+}
+#presentation{
+    margin-bottom: 80px;
+}
+
+.CD{
+    float: right;
+    width: 50%;
+    display: flex;
+  justify-content: center;
+
+}
+#myPhoto{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    background: var(--ColorG);
+    height: 188px;
+    color: var(--ColorCinS);
+}
+.CG{
+    float: left;
+    width: 50%; 
+}
+h3{
+    font-size: 3em;
+    margin: 0;
+
+}
+#maCite{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 31vh;
+    background-color: var(--ColorB);
+    width: 100%;
+    color: var(--ColorCinS);
+    font-size: 36px;
+  }
+cite{
+    width: 30%;
+    text-align: center;
+  
+}
+#Quality{
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    font-size: 21px;
+    margin: 50px auto;
+  }
+  .nbrQ{
+    color: var(--ColorB);
+    font-size: 40px;
+  }
+
+  #interets{
+    background-color: var(--ColorGTWO);
+  }
+  #interets h3{
+    text-align: center;
+
+  }
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+
+}
+  .blocPRO{
+    background: var(--ColorG);
+    width: 48%;
+    height: 32vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1%;
+  }
+  .blocSUP{
+    height: 16vh;
+    background-color: white;
+  }
+  .centrerTXT{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+  }
+  #blocdINT{
+    width: 60%;
+  }
+
+  .blocPRO:hover{
+    background: var(--ColorB);
+
+  }
+
+  .anyYEARS{
+    color: var(--ColorB);
+    font-size: 30px;
+    margin: 0;
+  }
+
+.anyDesc{
+    color: var(--ColorG);
+}
+
+
+.suppPKES{
+    height: 290px;
+    align-items: center;
+    display: flex;
+}
+
+h3 span{
+    color: var(--ColorB);
+}
+
+footer{
+    background-color: var(--ColorFooter);
+    color: var(--ColorGTWO);
+    display: flex;
+    justify-content: space-evenly;
+    height: 111px;
+    align-items: center;
+  }
+
+
+footer p{
+    width: 50%;
+
+}
+footer .LogoES{
+    margin-left: 149px;
+}
+
+
+
+
+
+/* on test un toggle */
+
+.toggle{
+  border:1px solid  var(--ColorGTWO);
+  box-shadow: rgba(0, 0, 0, 0.56) 0px 0px 20px 9px;
+  width: 6%;
+  height: 40px;
+  position: fixed;
+  top: 20px;
+  left: 20px;
+  border-radius: 21px;
+  animation: 1s CourRevien infinite;
+  background: var(--ColorG);
+}
+.circle{
+  width: 44%;
+  height: 50px;
+  background-color: var(--ColorGTWO);
+  border-radius: 63%;
+  position: absolute;
+  top: -6px;
+  left: 0px;
+}
+@keyframes CourRevien {
+  from {
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 0px 20px 9px;
+
+  }
+  50%{
+
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 0px 20px 5px;
+
+  }
+  to {
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 0px 20px 9px;
+
+  }
+}
+.ron{
+  animation: 1s ron forwards;
+
+}
+.pich{
+  animation: 1s pich forwards;
+
+}
+
+@keyframes ron {
+  from {
+    left: 0px;
+    background: var(--ColorGTWO);
+  }
+  to {
+    left: 65px;
+    background-color: var(--ColorB);
+  }
+}
+
+@keyframes pich {
+  from {
+    left: 65px;
+    background-color: var(--ColorB);
+
+  }
+  to {
+    left: 0px;
+    background: var(--ColorGTWO);
+    }
+}
+
+
+/* hehe eyyyyyyyyyyyyyyyyyyy*/
+.clear{
+    clear: both;
+}
